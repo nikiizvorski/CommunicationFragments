@@ -16,6 +16,12 @@ Project Structure?
 - Presenter 
 - Iterator
 
+How is this happening?
+
+- good starting point to get where is this going and i pretty much explained that this is happening with Callbacks
+
+- https://developer.android.com/training/basics/fragments/communicating.html
+
 #### Author
 
 - Niki Izvorski (nikiizvorski@gmail.com)
