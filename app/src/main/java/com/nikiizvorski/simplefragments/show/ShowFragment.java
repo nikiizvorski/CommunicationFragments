@@ -9,7 +9,13 @@ import android.widget.TextView;
 
 import com.nikiizvorski.simplefragments.R;
 
+/**
+ * The type Show fragment.
+ */
 public class ShowFragment extends Fragment implements ShowView{
+    /**
+     * The Text view.
+     */
     TextView textView;
 
     @Override

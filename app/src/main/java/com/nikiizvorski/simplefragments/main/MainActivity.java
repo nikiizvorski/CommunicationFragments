@@ -8,6 +8,9 @@ import com.nikiizvorski.simplefragments.input.Input;
 import com.nikiizvorski.simplefragments.R;
 import com.nikiizvorski.simplefragments.show.ShowFragment;
 
+/**
+ * The type Main activity.
+ */
 public class MainActivity extends AppCompatActivity implements MainAView{
 
     @Override

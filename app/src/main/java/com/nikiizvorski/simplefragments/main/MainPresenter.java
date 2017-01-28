@@ -5,10 +5,18 @@ import com.nikiizvorski.simplefragments.input.InputView;
 import com.nikiizvorski.simplefragments.show.ChangerEvent;
 import com.nikiizvorski.simplefragments.show.ShowView;
 
+/**
+ * The type Main presenter.
+ */
 public class MainPresenter implements DisplayView, InputView, ChangerEvent {
     private ShowView mainView;
     private MainIterator mainIterator;
 
+    /**
+     * Instantiates a new Main presenter.
+     *
+     * @param mainView the main view
+     */
     MainPresenter(ShowView mainView) {
         this.mainView = mainView;
         this.mainIterator = new MainIterator();

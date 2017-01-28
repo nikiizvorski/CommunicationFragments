@@ -3,8 +3,14 @@ package com.nikiizvorski.simplefragments.main;
 
 import com.nikiizvorski.simplefragments.show.ChangerEvent;
 
+/**
+ * The type Main iterator.
+ */
 class MainIterator implements MainIteratorImpl{
 
+    /**
+     * Instantiates a new Main iterator.
+     */
     MainIterator() {}
 
     @Override

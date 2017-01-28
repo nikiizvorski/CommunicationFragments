@@ -11,10 +11,24 @@ import com.nikiizvorski.simplefragments.R;
 import com.nikiizvorski.simplefragments.main.MainPresenter;
 
 
+/**
+ * The type Input.
+ */
 public class Input extends Fragment implements View.OnClickListener {
+    /**
+     * The Input view.
+     */
     InputView inputView;
+    /**
+     * The Button.
+     */
     Button button;
 
+    /**
+     * Sets presenter.
+     *
+     * @param mainPresenter the main presenter
+     */
     public void setPresenter(MainPresenter mainPresenter) {
         this.inputView = mainPresenter;
     }

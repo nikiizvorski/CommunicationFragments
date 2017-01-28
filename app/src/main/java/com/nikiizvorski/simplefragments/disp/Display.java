@@ -10,10 +10,21 @@ import android.widget.Button;
 import com.nikiizvorski.simplefragments.R;
 import com.nikiizvorski.simplefragments.main.MainPresenter;
 
+/**
+ * The type Display.
+ */
 public class Display extends Fragment implements View.OnClickListener {
     private DisplayView displayView;
+    /**
+     * The Button 2.
+     */
     Button button2;
 
+    /**
+     * Sets presenter.
+     *
+     * @param mainPresenter the main presenter
+     */
     public void setPresenter(MainPresenter mainPresenter) {
         this.displayView = mainPresenter;
     }
